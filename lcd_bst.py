@@ -25,10 +25,7 @@ class Solution:
         qval = q.val
         if qval < pval:
             pval,qval = qval,pval
-
             
-        
-        
         while temp:
 
             if pval < temp.val and qval > temp.val:
